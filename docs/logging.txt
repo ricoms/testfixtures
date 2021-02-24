@@ -98,6 +98,8 @@ find the decorator suits your needs better:
     .. code-block:: python
 
       import pytest
+      from testfixtures import LogCapture
+      
 
       @pytest.fixture(autouse=True)
       def capture():
